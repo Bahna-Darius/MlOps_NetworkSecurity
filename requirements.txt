@@ -1,0 +1,5 @@
+dotenv
+pandas
+numpy
+
+-e .
