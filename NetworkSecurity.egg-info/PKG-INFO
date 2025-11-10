@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: NetworkSecurity
+Version: 0.0.1
+Author: Darius Bahna
+Requires: dotenv
+Requires: pandas
+Requires: numpy
+Dynamic: author
+Dynamic: requires
