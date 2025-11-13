@@ -1,6 +1,13 @@
 """
 The setup.py file is an essential part of packaging and distribution Python projects.
 It is used by setuptools to define the configuration of your project, such as its metadata, dependencies and more ...
+
+!!! If write in terminal pip list you see:
+Package,Version
+numpy,1.24.0
+pandas,2.0.0
+NetworkSecurity,0.0.1
+!!!
 """
 
 from setuptools import find_packages, setup
