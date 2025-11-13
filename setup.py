@@ -1,4 +1,8 @@
 """
+
+setup.py + -e . = Install this code in to a library
+
+
 The setup.py file is an essential part of packaging and distribution Python projects.
 It is used by setuptools to define the configuration of your project, such as its metadata, dependencies and more ...
 
