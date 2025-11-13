@@ -27,6 +27,7 @@ def get_requirements()->List[str]:
 
     return requirement_list
 
+# help us to escape to import hell
 
 setup(
     name="NetworkSecurity",
