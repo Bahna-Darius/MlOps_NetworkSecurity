@@ -6,7 +6,8 @@ import sys
 class NetworkSecurityException(Exception):
     def __init__(self, error_message, error_details: sys):
         self.error_message = error_message
-        _, _, exc_tb = error_details.exc_info()
+        _, _, exc_tb = error_details.exc_info()     # _ is a variable convention , means _ ignore this variable
+        # (unpacking tuple) in error_details.exc_info() return a tuple with 3 values . Need only the last . 1 , 2  ignore
 
         self.lineno = exc_tb.tb_lineno
         self.file_name = exc_tb.tb_frame.f_code.co_filename
